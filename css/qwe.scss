@@ -1,0 +1,104 @@
+html,body{
+  margin:0;
+  padding:0;
+  //height:100%;
+}
+
+a{background: transparent; text-decoration: none; -webkit-tap-highlight-color: transparent;color: #000;}
+a:active{background: transparent}
+a:hover{ text-decoration:none; color:#333}
+
+h1,h2,h4,h5,h6,h3{margin: 0;font-weight: normal}
+body{
+background-color: #eff0f4;
+}
+$width:10px;
+$height:44px;
+$left:left;
+$right:right;
+$bgc:#5fc0cd;
+$t_b:#fff;
+$juli:30px;
+$b-white:#fff;
+$mt:25px;
+//header{
+//  height: $height;
+//}
+.close {
+  float: $left;
+  @extend .ct;
+}
+.head-top{
+  background-color: $bgc;
+  color: $t_b;
+}
+.login{
+  float:$right;
+  @extend .ct;
+}
+.btn{
+  width: 100%;
+  text-align: center;
+  background-color: $bgc;
+  color:$t_b;
+  font-size: 2.5rem;
+  border: none;
+  outline: none;
+}
+.btn-next{
+  @extend .btn;
+  margin-top: 50px;
+  padding:$juli;
+}
+@mixin textCenter($height1)
+{
+  height: $height1;
+  line-height: $height1;
+  text-align: center;
+}
+.head-top{
+  @include textCenter(64px);
+  font-size:2.2rem;
+  padding:$juli;
+}
+.ct{
+  color: #fff;
+  font-size: 2.3rem;
+}
+.contain{
+  margin-top: $mt;
+  img{
+    margin: 30px;
+    height: 42px*1.5;
+    width: 27px*1.5;
+    vertical-align: middle;
+  }
+ p{
+   background-color: $b-white;
+ }
+  input{
+    @extend .inputTell
+  }
+}
+.contain p:nth-child(2){
+   margin-top: $mt;
+}
+.inputTell{
+  height: 42px*1.5;
+  vertical-align: middle;
+  width: 80%;
+  border-left:1px solid #eaedee;
+  border-bottom: none;
+  border-right: none;
+  border-top: none;
+  padding-left: 30px;
+  font-size: 2.5rem;
+  color: #333;
+  outline: none;
+}
+.forget{
+  float: $right;
+  @extend .ct;
+  color: $bgc;
+  margin: 20px 30px;
+}

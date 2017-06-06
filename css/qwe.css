@@ -1,0 +1,90 @@
+html, body {
+  margin: 0;
+  padding: 0; }
+
+a {
+  background: transparent;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  color: #000; }
+
+a:active {
+  background: transparent; }
+
+a:hover {
+  text-decoration: none;
+  color: #333; }
+
+h1, h2, h4, h5, h6, h3 {
+  margin: 0;
+  font-weight: normal; }
+
+body {
+  background-color: #eff0f4; }
+
+.close {
+  float: left; }
+
+.head-top {
+  background-color: #5fc0cd;
+  color: #fff; }
+
+.login {
+  float: right; }
+
+.btn, .btn-next {
+  width: 100%;
+  text-align: center;
+  background-color: #5fc0cd;
+  color: #fff;
+  font-size: 2.5rem;
+  border: none;
+  outline: none; }
+
+.btn-next {
+  margin-top: 50px;
+  padding: 30px; }
+
+.head-top {
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  font-size: 2.2rem;
+  padding: 30px; }
+
+.ct, .close, .login, .forget {
+  color: #fff;
+  font-size: 2.3rem; }
+
+.contain {
+  margin-top: 25px; }
+  .contain img {
+    margin: 30px;
+    height: 63px;
+    width: 40.5px;
+    vertical-align: middle; }
+  .contain p {
+    background-color: #fff; }
+
+.contain p:nth-child(2) {
+  margin-top: 25px; }
+
+.inputTell, .contain input {
+  height: 63px;
+  vertical-align: middle;
+  width: 80%;
+  border-left: 1px solid #eaedee;
+  border-bottom: none;
+  border-right: none;
+  border-top: none;
+  padding-left: 30px;
+  font-size: 2.5rem;
+  color: #333;
+  outline: none; }
+
+.forget {
+  float: right;
+  color: #5fc0cd;
+  margin: 20px 30px; }
+
+/*# sourceMappingURL=qwe.css.map */
